@@ -1,19 +1,37 @@
 /*
 Using this as a sheet to make edits for the final product.
-
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
 */
 
 
 .headingcontainer {
-    margin: 20px 20px 20px 20px ;
-    padding: 10px ;
+   margin: 20px 20px 20px 20px ;
+   padding: 10px ;
    justify-content: right ;
    width: 960px;
    border-style: solid;
-   border: black; 
+   border: black;
+   float: right; 
+   
+  }
+
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+  background: #333;
+}
+
+#headname {
+  width: 30%;
+  text-align: left;
+ float: left;
+  /* position: relative;
+  left: 0;
+  margin: 0 auto; */
 
 }
 
@@ -25,23 +43,14 @@ body {
     line-height: 150%;
     color: #333;
     background: #efeee7;
-    width: 960px;
-    align-content: center;
+    /* width: 960px; */
+    /* align-content: center; this is a flex-box property. Not here. */
     border-style: solid;
     border: black; 
+    margin: 0 auto;
+}
 
-  }
-  
-  h1 {
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: #eee;
-    text-align: center;
-    background: #333;
-  }
-  
+
   a {
     color: black;
   }
@@ -53,16 +62,23 @@ body {
   
   #main-bio,
   #gregpic {
-    float: left;
+    /* float: left; NO DON't MAKE IT FLOAT GREG YOU MAD MAN. */
     border: black;
     border-style: solid;
   }
   
   #main-bio {
     width: 70%;
+    /* margin-left: 50%;
+    margin-right: 20px; margin: 0 auto; fulfills the purpos of centering within a container. */
     border: black;
     border-style: solid;
+    align-content: center;
+    margin: 0 auto;
   }
+
+
+
 
   #gregpic {
     width: 200px;
@@ -75,5 +91,6 @@ body {
     border-style: solid;
     
   }
-  }
+  
+
   
