@@ -2,38 +2,52 @@
 Using this as a sheet to make edits for the final product.
 */
 
-
-.headingcontainer {
-   margin: 20px 20px 20px 20px ;
-   padding: 10px ;
-   justify-content: right ;
-   width: 960px;
-   border-style: solid;
-   border: black;
-   float: right; 
-   
-  }
-
-
-h1 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-  color: #eee;
-  text-align: center;
-  background: #333;
+.bigwrap {
+  position: relative;
 }
 
-#headname {
-  width: 30%;
+#greg {
+  /* padding: 20px 0; */
+  padding-left: 20px;
+  padding-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 120px;
+  font-size: 28px;
+  color: #eee;
   text-align: left;
- float: left;
+  background: #333;
+  width: 300px;
+  position: relative;
+  /* margin: 0 auto; */
+  /* float: left; */
+}
+
+header {
+  height: 10vh;
+}
+
+#headthing {
+  position: relative;
+}
+
+.headingcontainer {
+ position: absolute;
+ right: 10 px;
+ border: 1px solid #73AD21;
+}
+
+
+
+/* 
+#headname {
+  width: 960px;
+  text-align: center;
+  text-align: left; */
   /* position: relative;
   left: 0;
   margin: 0 auto; */
 
-}
+
 
 body {
     padding: 20px;
@@ -48,23 +62,19 @@ body {
     border-style: solid;
     border: black; 
     margin: 0 auto;
+    min-height: 75vh;
+    
 }
 
 
-  a {
-    color: black;
-  }
-  
-  .headingcontainer {
-    width: 1024px;
-    margin: 0 auto;
-  }
+
   
   #main-bio,
   #gregpic {
     /* float: left; NO DON't MAKE IT FLOAT GREG YOU MAD MAN. */
     border: black;
     border-style: solid;
+    background: #efeee7;
   }
   
   #main-bio {
@@ -75,10 +85,13 @@ body {
     border-style: solid;
     align-content: center;
     margin: 0 auto;
+    margin-top: 0;
   }
 
+h3 {
+padding-left: 50px;
 
-
+}
 
   #gregpic {
     width: 200px;
@@ -86,11 +99,26 @@ body {
     margin-left: 10px;
     margin-right: 20px;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 0px;
     border: black;
     border-style: solid;
+    float: left;
     
   }
   
+  #overallcolor {
+    margin: auto;
+    height: 100vh;
+    z-index: 4;
 
-  
+    background: cornflowerblue;
+  }
+
+  #copyright {
+    width: 100%;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    background: gray;
+    height: 15vh;
+  }
