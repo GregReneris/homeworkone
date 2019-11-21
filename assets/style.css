@@ -12,7 +12,8 @@ Using this as a sheet to make edits for the final product.
 }
 
 #greg {
-  padding: 20px 0;
+  padding: 28px 0;
+  padding-left: 20px;
   margin-bottom: 0px;
   margin-left: 10px;
   font-size: 28px;
@@ -21,7 +22,6 @@ Using this as a sheet to make edits for the final product.
   background: #333;
   width: 300px;
   float: left;
-
 
 }
 
@@ -34,20 +34,23 @@ Using this as a sheet to make edits for the final product.
 }
 
 header {
-  height: 10vh;
+  height: 100px;
 }
- /* THIS VIEW HEIGHT THING IS CAUSING ALL THE PROBLEMS. */
+ /* THIS VIEW HEIGHT THING IS CAUSING ALL THE PROBLEMS. 
+    Changed to pixel height. Seems to work.
+ */
 
 
 
 .headingcontainer {
- /* position: absolute;
- right: 10px; */
- border: 1px solid #73AD21;
+position: absolute;
+ right: 10px;
+ 
  float: right;
- margin-top: 60px;
+ margin-top: 70px;
+ clear:both;
 }
-
+/* float clear both to get rid of overlap? Or */
 
 
 
@@ -68,6 +71,11 @@ body {
     margin: 0 auto;
     min-height: 75vh;
     
+}
+
+p {
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
 }
 
 
