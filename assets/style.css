@@ -52,10 +52,19 @@ position: absolute;
  float: right;
  margin-top: 70px;
  clear:both;
+ 
 }
 /* float clear both to get rid of overlap? Or */
 
+a {
 
+  margin-right: 10px;
+  margin-left: 5px;
+  padding-right: 5px;
+  color: darkslategray;
+  text-decoration: none;
+
+}
 
 
 
@@ -233,13 +242,11 @@ h1 {
   top: 0px; 
   /* The top:0px; brings the whole thing to the border. When it's not there it scoots back down. It's regular format should be 0, but still needs to be acknowledged / defined AS 0. There's a moral in that story probably. */
 
-
-
 }
 
   .images1 {
-    width: 200px;
     height: 200px;
+    width: 200px;
     margin-bottom: 10px;
   }
 
